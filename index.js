@@ -68,6 +68,7 @@ Client.on("message", async (message) => {
     .setDescription(args.join(" "))
     .setTimestamp()
     message.channel.send({embed});
+  }
 
     !     No default language could be detected for this app.
     HINT: This occurs when Heroku cannot detect the buildpack to use for this application automatically.
